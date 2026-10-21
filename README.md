@@ -4,7 +4,7 @@ CamCrack is an open-source graphical user interface (GUI) automation framework w
 
 ---
 
-## ⚠️ Legal Disclaimer
+## Legal Disclaimer
 **IMPORTANT: PLEASE READ CAREFULLY.**
 
 This software is developed and distributed strictly for authorized infrastructure auditing, educational research, white-hat vulnerability verification, and defensive configuration checks. 
@@ -15,14 +15,14 @@ This software is developed and distributed strictly for authorized infrastructur
 
 ---
 
-## 🛠️ Key Features
+## Key Features
 * **Network Target Mapping:** Asynchronous network ping sweeps utilizing `nmap` alongside specialized parallelized multi-protocol (`HTTP/HTTPS/RTSP`) live service inspection engines.
 * **Credential Engine:** Seamless interaction array leveraging `hydra` to handle parallel authentication verification on multiple modules like `http-get`, `http-digest-get`, and `rtsp`.
 * **Framework Layer Integration:** Built-in automation for compiling test deployment binaries via `msfvenom` and rapidly spawning active console handler listeners (`msfconsole`).
 
 ---
 
-## 📋 System Prerequisites
+## System Prerequisites
 
 To run this application successfully, your host operating system must have Python 3 installed along with the following network security tools available in your global system `PATH`:
 
@@ -38,7 +38,7 @@ sudo apt install python3-tk nmap hydra metasploit-framework curl
 
 ---
 
-## 🚀 Getting Started
+##Getting Started
 
 1. **Clone the repository:**
    ```bash
@@ -58,5 +58,5 @@ sudo apt install python3-tk nmap hydra metasploit-framework curl
 
 ---
 
-## 📄 License
+##License
 This repository is published under the terms of the **MIT License**. For full coverage metrics, read the accompanying `LICENSE` file.
