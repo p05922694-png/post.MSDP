@@ -1,5 +1,32 @@
-# Object file
-*.o
+# ==========================================
+# CamCrack Local Runtime Residue
+# ==========================================
+# Metasploit automation runscripts
+*.rc
+aux.rc
+handler.rc
 
-# Ada Library Information
-*.ali
+# Compiled payload binaries and raw exploitation packages
+payload.*
+*.elf
+*.exe
+*.sh
+*.php
+
+# Local test list artifacts and credentials dictionaries
+*.txt
+cam_defaults.txt
+
+# ==========================================
+# Standard Python System Overrides
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
